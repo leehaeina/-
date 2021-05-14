@@ -1,0 +1,56 @@
+:root {
+  /* color */
+  --color-black: #3f454d;
+  --color-white: #ffffff;
+  --color-blue: #3b88c3;
+  --color-yellow: #fbbe28;
+  --color-pink: #fd7f84;
+  --color-light-grey: #dfdfdf;
+}
+
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #3f454d;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  flex-direction: row;
+}
+
+#nav {
+  display: flex;
+  border: 3px solid red;
+  justify-content: center;
+  align-items: center;
+}
+
+#section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid var(--color-blue);
+}
+.cloth {
+  display: flex;
+  background-color: var(--color-white);
+  width: 600px;
+  height: fit-content;
+  justify-content: flex-start;
+  align-items: center;
+}
+.clothImage {
+  display: flex;
+
+  margin-left: 40px;
+}
+.gender {
+  display: flex;
+  background-color: var(--color-white);
+  margin-left: 30px;
+}
